@@ -1,5 +1,6 @@
 import Button from "./Button"
 import Form from "./Form";
+import MenuItems from "./MenuItems";
 
 
 const Products = () => {
@@ -7,6 +8,7 @@ const Products = () => {
     <>
     <Form />
     <Button />
+    <MenuItems/>
     </>
   )
 }

@@ -1,0 +1,23 @@
+.menuItems {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid var(--grayspace-layout-gray-10, #EBECEF);
+  border-bottom: 1px solid var(--grayspace-layout-gray-10, #EBECEF);
+  background: var(--grayspace-layout-gray-5, #F8F8FA);
+  span {
+    color:  #737680;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    cursor: pointer;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+.menuInput {
+  width: 16px;
+  height: 16px;
+  margin-left: 16px;
+}
